@@ -44,3 +44,5 @@ class ProgrammerDAO extends PersonDAO {
   private programmerRestProxy: PersonRestProxy;
 }
 Rrunning package {https://github.com/electron/electron.git install}evaluate.py
+
+fullyt-integrited matrix-client
