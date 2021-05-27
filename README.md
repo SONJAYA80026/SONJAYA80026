@@ -29,3 +29,17 @@ class PersonController {
   @Inject
   creationTime: Date;
 }
+abstract class BaseDAO {
+  @Inject
+  creationTime: Date;
+}
+
+class PersonDAO extends BaseDAO {
+  @Inject
+  private personRestProxy: PersonRestProxy;
+}
+
+class ProgrammerDAO extends PersonDAO {
+  @Inject
+  private programmerRestProxy: PersonRestProxy;
+}
