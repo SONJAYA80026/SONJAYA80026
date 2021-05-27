@@ -58,3 +58,4 @@ const child = proc.spawn(electron)
 
 // respawn [ gh repo clone SONJAYA80026/SONJAYA80026 RVM.git/gitter]
 // RESPAWN conda env create -f environment.yml  
+git@github.com:SONJAYA80026/microservices-demo.git
