@@ -43,4 +43,4 @@ class ProgrammerDAO extends PersonDAO {
   @Inject
   private programmerRestProxy: PersonRestProxy;
 }
-Rrunning package {https://github.com/electron/electron.git install}
+Rrunning package {https://github.com/electron/electron.git install}evaluate.py
