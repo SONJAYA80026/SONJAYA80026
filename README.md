@@ -22,3 +22,10 @@ class PersonService {
   }
 }
 
+class PersonController {
+  @Inject
+  private personService: PersonService;
+
+  @Inject
+  creationTime: Date;
+}
