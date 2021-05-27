@@ -15,3 +15,10 @@ from async_logging_handler import AsyncFileHandler
 
 async_handler = AsyncFileHandler(filename)
 some_logger.addHandler(async_handler)
+class PersonService {
+  private personDAO: PersonDAO;
+  constructor( @Inject personDAO: PersonDAO ) {
+    this.personDAO = personDAO;
+  }
+}
+
