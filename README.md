@@ -45,4 +45,4 @@ class ProgrammerDAO extends PersonDAO {
 }
 Rrunning package {https://github.com/electron/electron.git install}evaluate.py
 
-fullyt-integrited matrix-client
+fully-integrited matrix-client
