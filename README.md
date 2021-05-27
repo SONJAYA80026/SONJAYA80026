@@ -46,3 +46,13 @@ class ProgrammerDAO extends PersonDAO {
 Rrunning package {https://github.com/electron/electron.git install}evaluate.py
 
 fully-integrited matrix-client
+
+const electron = require('electron')
+const proc = require('child_process')
+
+// will print something similar to /Users/maf/.../Electron
+console.log(electron)
+
+// spawn Electron
+const child = proc.spawn(electron)
+
