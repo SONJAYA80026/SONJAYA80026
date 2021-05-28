@@ -59,3 +59,18 @@ const child = proc.spawn(electron)
 // respawn [ gh repo clone SONJAYA80026/SONJAYA80026 RVM.git/gitter]
 // RESPAWN conda env create -f environment.yml  
 git@github.com:SONJAYA80026/microservices-demo.git
+
+>       import importHTML from 'import-html-entry';
+
+importHTML('./subApp/index.html')
+    .then(res => {
+        console.log(res.template);
+
+        res.execScripts().then(exports => {
+            const mobx = exports;
+            const { observable } = mobx;
+            observable({
+                name: 'kuitos'
+            })	
+        })
+});
